@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.header {
+  width: 100vw;
+  height: 50px;
+  background-color: rgb(37, 100, 173);
+  color: white;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  display: flex;
+  justify-content: flex;
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.btn-page {
+  background-color: rgb(40, 109, 188);
+  border: none;
+  padding: 5px;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.main {
+  width: 95vw;
+  border: 1px solid black;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.person {
+  width: 100%;
+  text-align: start;
+}
+table {
+  border-collapse: collapse;
+}
+.action {
+  border: none;
+  background-color: white;
+  text-decoration: underline;
+  color: rgb(34, 102, 179);
+  cursor: pointer;
+  margin-right: 20px;
+}
+.thead {
+  background-color: rgb(49, 121, 203);
+  color: white;
+  border: 1px solid black;
+  width: 15vw;
+  padding: 6px;
+}
+input {
+  height: 7vh;
+  width: 15vw;
+}
+td {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.retrieve {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 95vw;
+  height: 90vh;
+  border: 1px solid black;
+}
+.btn-find {
+  background-color: rgb(32, 95, 168);
+  color: white;
+  border: none;
+  width: 55px;
+  height: 30px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.search {
+  width: 200px;
+  height: 30px;
+}
+
+.add {
+  width: 10vw;
+  background-color: rgb(34, 106, 188);
+  border: none;
+  color: white;
+  padding: 6px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 80vw;
+}
+
+.single-data {
+  margin-top: 45px;
+  margin-left: 35px;
+}
+span {
+  font-weight: 370;
+}
+.no-data {
+  display: flex;
+  margin-top: 25vh;
+  margin-left: 38vw;
+  align-items: center;
+}
+.find-detail {
+  border: 2px solid black;
+  margin-top: 25px;
+  text-align: start;
+}
